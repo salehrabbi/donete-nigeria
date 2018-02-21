@@ -80,6 +80,11 @@
 @media (max-width: 575px) {
   .button-group {
     position: static;
+    text-align: center;
+  }
+
+  .button-group a {
+    margin: 0 3px;
   }
 
   .social-links {

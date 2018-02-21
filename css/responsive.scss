@@ -58,8 +58,11 @@
     .mainmenu ul li {
         display: block;
     }
-    .display-none{
+    .display-none {
         display: none;
+    }
+    #multi-step-form fieldset {
+        margin: 0;
     }
 }
 
@@ -79,5 +82,8 @@
     }
     .logo {
         text-align: center;
+    }
+    #multi-step-form .action-button {
+        padding: 1px 50px;
     }
 }

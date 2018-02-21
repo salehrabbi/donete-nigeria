@@ -72,6 +72,10 @@
   .display-none {
     display: none;
   }
+
+  #multi-step-form fieldset {
+    margin: 0;
+  }
 }
 @media (max-width: 575px) {
   .button-group {
@@ -93,5 +97,9 @@
 
   .logo {
     text-align: center;
+  }
+
+  #multi-step-form .action-button {
+    padding: 1px 50px;
   }
 }

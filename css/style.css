@@ -401,6 +401,11 @@ ul {
   font-size: 17px;
   padding: 10px 30px;
   text-transform: uppercase;
+  border: 2px solid transparent;
+}
+.boxed-btn:hover {
+  border-color: #009966;
+  background: transparent;
 }
 
 .button-group {
@@ -542,7 +547,6 @@ ul {
 .hero-text p {
   font-size: 16px;
   line-height: 16px;
-  max-width: 300px;
   color: #fff;
 }
 

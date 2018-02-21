@@ -179,6 +179,7 @@ html {
 #multi-step-form {
     padding: 60px 0;
     overflow: hidden;
+    min-height: 698px;
     h3 {
         text-transform: uppercase;
         font-weight: 700;
@@ -414,7 +415,7 @@ ul {
     padding: 10px 30px;
     text-transform: uppercase;
     border: 2px solid transparent;
-    &:hover{
+    &:hover {
         border-color: #009966;
         background: transparent;
     }
@@ -599,4 +600,47 @@ ul {
     text-transform: uppercase;
     font-size: 14px;
     padding: 20px 0;
+}
+
+
+
+.preview {
+    padding: 50px 0;
+    .item {
+        margin-bottom: 30px;
+        p {
+            color: #555555;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        .value {
+            width: 100%;
+            padding: 5px;
+            background: #f4f4f4;
+            color: #000;
+            border: 0;
+            font-size: 16px;
+            padding-left: 15px;
+            padding-right: 15px;
+            min-height: 32px;
+        }
+        img{
+            max-width: 200px;
+        }
+
+    }
+    .action-button {
+        width: auto;
+        background: transparent;
+        font-weight: 700;
+        color: #006600;
+        border-radius: 0;
+        cursor: pointer;
+        padding: 1px 87px;
+        margin: 0;
+        border: 2px solid #006600;
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
 }

@@ -1,0 +1,97 @@
+@media (max-width: 1199px) {
+  .main-banner h1 {
+    font-size: 63px;
+  }
+
+  .buttons .btn {
+    font-size: 19px;
+  }
+
+  .mainmenu li a {
+    padding: 15px 10px;
+  }
+}
+@media (max-width: 991px) {
+  .buttons .btn {
+    font-size: 13px;
+  }
+
+  .item-right-3 .item-center-content p {
+    font-size: 23px;
+  }
+
+  .main-banner h1 {
+    font-size: 51px;
+  }
+
+  .item-right h3 br {
+    display: none;
+  }
+
+  .item-left-1 .item-center-content {
+    min-height: 247px;
+  }
+
+  .widget {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .main-banner h1 {
+    font-size: 37px;
+  }
+
+  .main-banner p {
+    font-size: 28px;
+  }
+
+  .item-right-3 .item-center-content {
+    min-height: 198px;
+  }
+
+  .images-bottom-link .col-md-6 {
+    padding: 15px 0;
+  }
+
+  .buttons .btn {
+    margin-bottom: 5px;
+  }
+
+  .navbar-toggle .icon-bar {
+    background: #fff;
+  }
+
+  .navbar-toggle {
+    border: 1px solid #fff;
+  }
+
+  .mainmenu ul li {
+    display: block;
+  }
+
+  .display-none {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .button-group {
+    position: static;
+  }
+
+  .social-links {
+    position: static;
+  }
+
+  .boxed-btn {
+    font-size: 14px;
+  }
+
+  .social-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .logo {
+    text-align: center;
+  }
+}

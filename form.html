@@ -119,7 +119,7 @@
                         <input type="radio" name="gender" id="yes" value="male" checked> <label for="yes" class="lable-1"><span></span><p>be a paid pdp member (Nigerian Resident only) <small>Choose this option to become a card-carrying <br> member of the PDP. Membership costs N500 <br> Monthly</small></p></label>
                     </div>
                     <div>
-                        <input type="radio" name="gender" id="no" value="male" checked> <label for="no"><span></span><p>be a international paid pdp member <small>Choose this option to becurrently reside outside <br> Nigeria.</small></p></label>
+                        <input type="radio" name="gender" id="no" value="male"> <label for="no"><span></span><p>be a international paid pdp member <small>Choose this option to becurrently reside outside <br> Nigeria.</small></p></label>
                     </div>
                     <input type="button" name="next" class="next action-button" value="Next" />
                 </fieldset>
@@ -136,10 +136,13 @@
                     <div class="space">
                         <div class="title-label">Salutation*</div>
                         <select>
-                          <option value="volvo">Volvo</option>
-                          <option value="saab">Saab</option>
-                          <option value="opel">Opel</option>
-                          <option value="audi">Audi</option>
+                          <option value="volvo">Mr.</option>
+                          <option value="saab">Mrs.</option>
+                          <option value="opel">Ms.</option>
+                          <option value="audi">Dr.</option>
+                          <option value="audi">Prof.</option>
+                          <option value="audi">Mnr.</option>
+                          <option value="audi">Mnr.</option>
                         </select>
                     </div>
                     <div class="space">
@@ -157,20 +160,22 @@
                     <div class="space">
                         <div class="title-label">Language*</div>
                         <select>
-                          <option value="volvo">Volvo</option>
-                          <option value="saab">Saab</option>
-                          <option value="opel">Opel</option>
-                          <option value="audi">Audi</option>
+                          <option value="volvo">Afrikaans</option>
+                          <option value="saab">English</option>
+                          <option value="opel">isiNdebele</option>
+                          <option value="audi">isiXhosa</option>
                         </select>
                     </div>
                     <div class="space">
                         <div class="title-label">Gender*</div>
                         <select>
-                          <option value="volvo">Volvo</option>
-                          <option value="saab">Saab</option>
-                          <option value="opel">Opel</option>
-                          <option value="audi">Audi</option>
+                          <option value="volvo">Male</option>
+                          <option value="saab">Female</option>
                         </select>
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Gender*</div>
+                        <input type="date" class="myDate" style="border: 1px solid #000;padding: 10px;">
                     </div>
                     <div class="space">
                         <div class="title-label">Occupation*</div>
@@ -180,12 +185,66 @@
                     <input type="button" name="next" class="next action-button" value="Next" />
                 </fieldset>
                 <fieldset>
-                    <h2 class="fs-title">Personal Details</h2>
-                    <h3 class="fs-subtitle">We will never sell it</h3>
-                    <input type="text" name="fname" placeholder="First Name" />
-                    <input type="text" name="lname" placeholder="Last Name" />
-                    <input type="text" name="phone" placeholder="Phone" />
-                    <textarea name="address" placeholder="Address"></textarea>
+                    <div class="space">
+                        <div class="title-label">Cell Number*</div>
+                        <input type="text" class="simple">
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Home Number*</div>
+                        <input type="text" class="simple">
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Work Number</div>
+                        <input type="text" class="simple">
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Email*</div>
+                        <input type="text" class="simple">
+                    </div>
+                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+                <fieldset>
+                    <div class="space">
+                        <div class="title-label">Physical Address Line 1*</div>
+                        <input type="text" class="simple">
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Physical Address Line 2</div>
+                        <input type="text" class="simple">
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Suburb*</div>
+                        <input type="text" class="simple">
+                    </div>
+                    <div class="space">
+                        <div class="title-label">City*</div>
+                        <input type="text" class="simple">
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Province*</div>
+                        <select>
+                          <option value="volvo">Eastern Cape</option>
+                          <option value="saab">Free State</option>
+                          <option value="opel">Gauteng</option>
+                          <option value="audi">KwaZulu-Natal</option>
+                        </select>
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Postal Code*</div>
+                        <input type="text" class="simple">
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Country</div>
+                        <select>
+                          <option value="volvo">South Africa</option>
+                        </select>
+                    </div>
+                    <div class="space">
+                        <div class="title-label">Profile Image</div>
+                        <input name="myFile" type="file">
+                    </div>
+                    <input name="myFile" type="file">
                     <input type="button" name="previous" class="previous action-button" value="Previous" />
                     <input type="submit" name="submit" class="submit action-button" value="Submit" />
                 </fieldset>

@@ -80,3 +80,12 @@ $(".previous").click(function(){
 $(".submit").click(function(){
 	return false;
 })
+
+
+
+$(".print").click(function () {
+    print()
+});
+
+
+
